@@ -1,0 +1,4 @@
+Purity-Example
+==============
+
+Purity Example
