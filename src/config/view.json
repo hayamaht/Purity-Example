@@ -1,0 +1,44 @@
+{
+	"title": {
+		"type": "nav",
+		"default": true,
+		"index": 0,
+		"components": {
+			"btn": {
+				"type": "button",
+				"label": "Hello!",
+				"click": "@page1",
+				"x": "{center}-40",
+				"y": "{middle}"
+			}
+		}
+	},
+
+	"page1": {
+		"type": "nav:panel",
+		"index": 1,
+		"components": {
+			"btn": {
+				"type": "button",
+				"label": "Page1",
+				"click": "@page2",
+				"x": "{center}-30",
+				"y": "{middle}"
+			}
+		}
+	},
+
+	"page2": {
+		"type": "nav:scroll",
+		"index": 2,
+		"components": {
+			"btn": {
+				"type": "button",
+				"label": "Page2",
+				"click": "@title",
+				"x": "{center}-40",
+				"y": "{middle}"
+			}
+		}
+	}
+}
